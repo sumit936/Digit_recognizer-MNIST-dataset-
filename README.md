@@ -16,7 +16,7 @@ Task: Our task here is to recognize or classify these handwritten digits using m
 6.Submission
 
 ### 1.Data
-Source: Kaggle(You 
+Source: Kaggle
 
 This Dataset consists of:
 rows: 42000
