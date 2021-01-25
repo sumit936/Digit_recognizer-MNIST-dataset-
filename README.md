@@ -35,5 +35,5 @@ c.EDA(Exploratory Data Analysis)- This is an approach to analyzing data sets to 
 
 d.Normalization-Normalization is also the scaling technique, we should use normalization when you know the distribution of the data does not follow normal distribution.
 
-d.Standardization- This is the process of the scaling all features in the range between 0 and 1.
+e.Standardization- This is the process of the scaling all features in the range between 0 and 1.
 
