@@ -56,6 +56,7 @@ Following algorithms has been used in this project:
 
 ### 6.Metrices used
 Following metrices has been used to validate the result:
+
 1.Accuracy score-->Checks the accuracy of the model
 
 2.Confusion Matrix-->gives the matrix, tells how many values fell under correct class
