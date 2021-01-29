@@ -46,6 +46,7 @@ Following algorithms has been used in this project:
 ### 4.Hypertuning
 
 .In this project the 'GridSearch' tuning method has been used with Kfold validation to tune the model. 
+
 .We have fitted the model on the best parameter for the svm classifier which has been given by Gridsearch.
 
 ### 5.Prediction
