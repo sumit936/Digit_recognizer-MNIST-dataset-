@@ -13,7 +13,8 @@ Task: Our task here is to recognize or classify these handwritten digits using m
 3.Algorithms used
 4.Hypertuning
 5.Prediction
-6.Submission
+6.Metrices used
+7.Submission
 
 ### 1.Data
 Source: Kaggle
@@ -35,5 +36,30 @@ c.EDA(Exploratory Data Analysis)- This is an approach to analyzing data sets to 
 
 d.Normalization-Normalization is also the scaling technique, we should use normalization when you know the distribution of the data does not follow normal distribution.
 
-e.Standardization- This is the process of the scaling all features in the range between 0 and 1.
+e.Standardization- This is the process of the scaling all features in the range between 0 and 1.\
+
+### 3.Algorithms used
+Following algorithms has been used in this project:
+1.KNN(K-Nearest Neighbours)
+2.SVC(support vector classifier)
+
+### 4.Hypertuning
+
+.In this project the 'GridSearch' tuning method has been used with Kfold validation to tune the model. 
+.We have fitted the model on the best parameter for the svm classifier which has been given by Gridsearch.
+
+### 5.Prediction
+.Predicition has been made using svm classifier on the parameter given by 'Gridsearch'.
+.Prediciton has been made on completely new data(which is test data)
+
+### 6.Metrices used
+Following metrices has been used to validate the result:
+1.Accuracy score-->Checks the accuracy of the model
+2.Confusion Matrix-->gives the matrix, tells how many values fell under correct class
+3.Classification Repot-->generate report on precision, recall, f1-score etc.
+
+### 7.Submission
+
+And the last section of this project-->we have saved our prediction in csv file in order to submit anywhere we want.
+
 
