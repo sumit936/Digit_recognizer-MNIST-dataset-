@@ -51,12 +51,15 @@ Following algorithms has been used in this project:
 
 ### 5.Prediction
 .Predicition has been made using svm classifier on the parameter given by 'Gridsearch'.
+
 .Prediciton has been made on completely new data(which is test data)
 
 ### 6.Metrices used
 Following metrices has been used to validate the result:
 1.Accuracy score-->Checks the accuracy of the model
+
 2.Confusion Matrix-->gives the matrix, tells how many values fell under correct class
+
 3.Classification Repot-->generate report on precision, recall, f1-score etc.
 
 ### 7.Submission
